@@ -1,4 +1,4 @@
-# :package_name
+# Personal ID Validator
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -17,7 +17,7 @@ PSRs you support to avoid any confusion with users and contributors.
 Via Composer
 
 ``` bash
-$ composer require :vendor/:package_name
+$ composer require cyrkulewski/PIdV
 ```
 
 ## Usage
@@ -47,8 +47,7 @@ If you discover any security related issues, please email :author_email instead 
 
 ## Credits
 
-- [:author_name][link-author]
-- [All Contributors][link-contributors]
+- [:Aleksander Cyrkulewski][http://www.cyrkulewski.pl]
 
 ## License
 
