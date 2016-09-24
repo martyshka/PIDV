@@ -7,10 +7,16 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-**Note:** Replace ```:author_name``` ```:author_username``` ```:author_website``` ```:author_email``` ```:vendor``` ```:package_name``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line.
+Library to validate personal IDs of different countries. Most of the countries in the world assign certain ID to each citizen. This library helps to validate it.
+  
+Supported countries are (in alphabetical order):
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+| Country code  | Country name | Personal ID name |
+| ------------- | ------------ | ---------------- |
+| DK | Denmark | CPR-nummer |
+| FI | Finland | HETU |
+| PL | Poland  | PESEL |
+| SE | Sweden  | Personnumer |
 
 ## Install
 
@@ -47,7 +53,7 @@ If you discover any security related issues, please email :author_email instead 
 
 ## Credits
 
-- [:Aleksander Cyrkulewski][http://www.cyrkulewski.pl]
+- [Aleksander Cyrkulewski](http://www.cyrkulewski.pl)
 
 ## License
 
