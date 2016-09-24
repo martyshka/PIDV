@@ -9,15 +9,15 @@ class PIdValidatorTest extends \PHPUnit_Framework_TestCase
     public function test_validate_correctPersonalIDs()
     {
         $validator = new PIdValidator();
-        $this->assertTrue($validator->validate('197804188253', 'SE'));
-        $this->assertTrue($validator->validate('201607292719', 'SE'));
+        $this->assertTrue($validator->validate('197704190011', 'SE'));
+        $this->assertTrue($validator->validate('201509150080', 'SE'));
     }
 
     public function test_validate_wrongPersonalIDs()
     {
         $validator = new PIdValidator();
-        $this->assertFalse($validator->validate('7804180000', 'SE'));
-        $this->assertFalse($validator->validate('201608292719', 'SE'));
+        $this->assertFalse($validator->validate('197704190000', 'SE'));
+        $this->assertFalse($validator->validate('201509151180', 'SE'));
     }
 
     /**

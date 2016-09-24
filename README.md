@@ -29,8 +29,9 @@ $ composer require cyrkulewski/PIdV
 ## Usage
 
 ``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+$validator = new PIdValidator();
+$validator->validate('197704190011', 'SE'); // true
+$validator->validate('197704190011', 'NON-SUPPORTED-COUNTRY'); // false
 ```
 
 ## Change log
