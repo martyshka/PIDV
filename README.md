@@ -7,9 +7,10 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Library to validate personal IDs of different countries. Most of the countries in the world assign certain ID to each citizen. This library helps to validate it.
+Library to validate personal IDs of different countries. Most of the countries in the world assign certain ID to each citizen. 
+This library helps to validate it. One just need to pass ID and country short-name (in [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1) standard) to the validator.
   
-Supported countries are (in alphabetical order):
+Supported countries (in alphabetical order):
 
 | Country code  | Country name | Personal ID name |
 | ------------- | ------------ | ---------------- |
@@ -31,6 +32,8 @@ $ composer require cyrkulewski/PIdV
 ``` php
 $validator = new PIdValidator();
 $validator->validate('197704190011', 'SE'); // true
+$validator->validate('311280-888Y', 'FI'); // true
+$validator->validate('abcdef', 'DK'); // false
 $validator->validate('197704190011', 'NON-SUPPORTED-COUNTRY'); // false
 ```
 
