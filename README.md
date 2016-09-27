@@ -28,8 +28,14 @@ $ composer require cyrkulewski/PIdV
 ```
 
 ## Usage
+There is one public function used for validation. It will return boolean. One need to pass ID to check and country code.
+``` php
+$validator->validate('ID', 'COUNTRY');
+```
 
 ``` php
+use cyrkulewski\PIdV\PIdValidator;
+
 $validator = new PIdValidator();
 $validator->validate('197704190011', 'SE'); // true
 $validator->validate('311280-888Y', 'FI'); // true
