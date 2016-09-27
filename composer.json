@@ -1,12 +1,12 @@
 {
     "name": "cyrkulewski/personal-id-validator",
     "type": "library",
-    "description": ":package_description",
+    "description": "Library to validate personal IDs of different countries.",
     "keywords": [
-        ":vendor",
-        ":package_name"
+        "Aleksander Cyrkulewski",
+        "Personal ID validator"
     ],
-    "homepage": "https://github.com/:vendor/:package_name",
+    "homepage": "https://github.com/martyshka/pidv",
     "license": "MIT",
     "authors": [
         {
