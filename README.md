@@ -24,7 +24,7 @@ Supported countries (in alphabetical order):
 Via Composer
 
 ``` bash
-$ composer require cyrkulewski/PIdV
+$ composer require cyrkulewski/personal-id-validator
 ```
 
 ## Usage
@@ -63,7 +63,7 @@ If you discover any security related issues, please email cyrkulewski@gmail.com 
 
 ## Credits
 
-- [Aleksander Cyrkulewski](http://www.cyrkulewski.pl)
+- [Aleksander Cyrkulewski][link-author]
 
 ## License
 
