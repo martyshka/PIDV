@@ -14,6 +14,7 @@ Supported countries (in alphabetical order):
 
 | Country code  | Country name | Personal ID name |
 | ------------- | ------------ | ---------------- |
+| DE | Germany | Steueridentifikationsnummer |
 | DK | Denmark | CPR-nummer |
 | FI | Finland | HETU |
 | PL | Poland  | PESEL |
