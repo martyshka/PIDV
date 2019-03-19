@@ -2,6 +2,7 @@
 
 namespace cyrkulewski\PIdV\Test\Validator;
 
+use cyrkulewski\PIdV\Dictionary\CountryDictionary;
 use cyrkulewski\PIdV\Validator\DE;
 
 class DETest extends \PHPUnit_Framework_TestCase
@@ -26,6 +27,6 @@ class DETest extends \PHPUnit_Framework_TestCase
     public function test_getName()
     {
         $validator = new DE();
-        $this->assertEquals($validator->getName(), 'DE');
+        $this->assertEquals($validator->getName(), CountryDictionary::GERMANY);
     }
 }

@@ -2,6 +2,7 @@
 
 namespace cyrkulewski\PIdV\Test\Validator;
 
+use cyrkulewski\PIdV\Dictionary\CountryDictionary;
 use cyrkulewski\PIdV\Validator\SE;
 
 class SETest extends \PHPUnit_Framework_TestCase
@@ -27,7 +28,7 @@ class SETest extends \PHPUnit_Framework_TestCase
     public function test_getName()
     {
         $validator = new SE();
-        $this->assertEquals($validator->getName(), 'SE');
+        $this->assertEquals($validator->getName(), CountryDictionary::SWEDEN);
     }
 
 }

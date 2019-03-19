@@ -2,6 +2,7 @@
 
 namespace cyrkulewski\PIdV\Test\Validator;
 
+use cyrkulewski\PIdV\Dictionary\CountryDictionary;
 use cyrkulewski\PIdV\Validator\FI;
 
 class FITest extends \PHPUnit_Framework_TestCase
@@ -29,6 +30,6 @@ class FITest extends \PHPUnit_Framework_TestCase
     public function test_getName()
     {
         $validator = new FI();
-        $this->assertEquals($validator->getName(), 'FI');
+        $this->assertEquals($validator->getName(), CountryDictionary::FINLAND);
     }
 }

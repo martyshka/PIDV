@@ -2,6 +2,7 @@
 
 namespace cyrkulewski\PIdV\Test\Validator;
 
+use cyrkulewski\PIdV\Dictionary\CountryDictionary;
 use cyrkulewski\PIdV\Validator\PL;
 
 class PLTest extends \PHPUnit_Framework_TestCase
@@ -28,6 +29,6 @@ class PLTest extends \PHPUnit_Framework_TestCase
     public function test_getName()
     {
         $validator = new PL();
-        $this->assertEquals($validator->getName(), 'PL');
+        $this->assertEquals($validator->getName(), CountryDictionary::POLAND);
     }
 }

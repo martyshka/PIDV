@@ -2,6 +2,7 @@
 
 namespace cyrkulewski\PIdV\Test\Validator;
 
+use cyrkulewski\PIdV\Dictionary\CountryDictionary;
 use cyrkulewski\PIdV\Validator\DK;
 
 class DKTest extends \PHPUnit_Framework_TestCase
@@ -25,6 +26,6 @@ class DKTest extends \PHPUnit_Framework_TestCase
     public function test_getName()
     {
         $validator = new DK();
-        $this->assertEquals($validator->getName(), 'DK');
+        $this->assertEquals($validator->getName(), CountryDictionary::DENMARK);
     }
 }

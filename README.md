@@ -35,12 +35,13 @@ $validator->validate('ID', 'COUNTRY');
 ```
 
 ``` php
+use cyrkulewski\PIdV\Dictionary\CountryDictionary;
 use cyrkulewski\PIdV\PIdValidator;
 
 $validator = new PIdValidator();
-$validator->validate('197704190011', 'SE'); // true
-$validator->validate('311280-888Y', 'FI'); // true
-$validator->validate('abcdef', 'DK'); // false
+$validator->validate('197704190011', CountryDictionary::SWEDEN); // true
+$validator->validate('311280-888Y', CountryDictionary::FINLAND); // true
+$validator->validate('abcdef', CountryDictionary::DENMARK); // false
 $validator->validate('197704190011', 'NON-SUPPORTED-COUNTRY'); // false
 ```
 
