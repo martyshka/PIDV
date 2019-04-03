@@ -3,7 +3,7 @@
 namespace cyrkulewski\PIdV\Validator;
 
 /**
- * The Finish personal identity code (Finnish: henkilötunnus (HETU)
+ * The Finish personal identity code (Finnish: henkilötunnus (HETU))
  *
  * It uses the form DDMMYYCZZZQ, where:
  * - DDMMYY is the date of birth,

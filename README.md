@@ -17,6 +17,7 @@ Supported countries (in alphabetical order):
 | DE | Germany | Steueridentifikationsnummer |
 | DK | Denmark | CPR-nummer |
 | FI | Finland | HETU |
+| FR | France  | Numéro de sécurité sociale (INSEE) |
 | PL | Poland  | PESEL |
 | SE | Sweden  | Personnumer |
 
